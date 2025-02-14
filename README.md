@@ -4,7 +4,7 @@ The script uses the following **regular expressions** to extract specific data:
 
 ### 1. **Email Address Regex**
    - **Pattern**: `r"t.kuir@alustudent.com"`
-   - This pattern matches the exact email address `"m.ahol@alustudent.com"`. It’s designed for this specific email only.
+   - This pattern matches the exact email address `"t.kuir@alustudent.com"`. It’s designed for this specific email only.
    - **Use**: Extracts the email address from the text.
    
 ### 2. **URL Regex**
@@ -45,4 +45,4 @@ The current regular expressions are designed for exact matching, meaning they wi
   r"\b(?:\d{4}[-\s]?\d{4}[-\s]?\d{4}[-\s]?\d{4}|\d{16})\b"
   ```
 
-For more advanced extraction, consider adjusting these patterns to be more general and match a wider range of possible inputs.
+  Engineer Aluel Tabby
